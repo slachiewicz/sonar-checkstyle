@@ -1,6 +1,6 @@
-FROM sonarqube:6.2
+FROM sonarqube:6.7.1
 
-ARG MAVEN_VERSION=3.3.9
+ARG MAVEN_VERSION=3.5.2
 ARG USER_HOME_DIR="/root"
 
 RUN mkdir -p /usr/share/maven /usr/share/maven/ref \
